@@ -88,8 +88,8 @@ img {
 }
 
 .typing-demo {
-  width: 29ch;
-  animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+  width: 31ch;
+  animation: typing 2s steps(24), blink 0.7s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -141,9 +141,6 @@ img {
   }
   .navText h1 {
     font-size: 20px;
-  }
-  .typing-demo {
-    font-size: 15px;
   }
 }
 .navBar a:hover {
