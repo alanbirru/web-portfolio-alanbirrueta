@@ -97,6 +97,12 @@ img {
   font-size: 16px;
   font-family: "Space Mono", monospace;
 }
+.about {
+  padding-top: 200px;
+}
+.about h1 {
+  text-align: center;
+}
 
 @keyframes typing {
   from {
@@ -112,11 +118,12 @@ img {
 
 @media (max-width: 927px) {
   .mainText {
-    margin: 20px auto;
-    padding-top: 50px;
-    margin: auto;
+    /* padding-top: 50px; */
+    margin-top: 55px;
+    align-items: center;
+    text-align: center;
 
-    width: 80%;
+    width: 90%;
   }
   h1 {
     font-size: 35px;
@@ -141,6 +148,9 @@ img {
   }
   .navText h1 {
     font-size: 20px;
+  }
+  .about {
+    padding-top: 35px;
   }
 }
 .navBar a:hover {
