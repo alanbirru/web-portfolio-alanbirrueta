@@ -67,8 +67,10 @@ img {
   gap: 60px;
 }
 .curriculum {
+  backdrop-filter: blur(6px);
+
   padding: 15px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(187, 187, 187, 0.212);
   color: white;
   border: solid white;
   border-radius: 5px;
