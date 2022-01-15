@@ -74,9 +74,6 @@ img {
   border-radius: 5px;
   margin-top: 10px;
 }
-.navIcons i:hover {
-  color: greenyellow;
-}
 
 /* escritura */
 .wrapper {
@@ -115,6 +112,12 @@ img {
     border-color: transparent;
   }
 }
+.navBar i:hover {
+  color: greenyellow;
+}
+.navBar a:hover {
+  color: greenyellow;
+}
 
 @media (max-width: 927px) {
   .mainText {
@@ -137,6 +140,7 @@ img {
   .navBar {
     flex-direction: column;
     gap: 30px;
+    background-color: greenyellow;
   }
   .hero {
     flex-direction: column;
@@ -152,7 +156,16 @@ img {
   .about {
     padding-top: 35px;
   }
-}
-.navBar a:hover {
-  color: greenyellow;
+  .navBar a {
+    color: black;
+  }
+  .navBar i {
+    color: black;
+  }
+  .navBar a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .navBar i:hover {
+    color: rgb(255, 255, 255);
+  }
 }
