@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(26, 26, 26);
+  color: white;
+}
+p {
+  font-family: "Space Mono", monospace;
+  line-height: 25px;
+}
+span {
+  color: greenyellow;
+}
+.navBar {
+  background-color: rgb(26, 26, 26);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: rgb(149, 236, 18) solid 2px;
+}
+.navText {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navIcons i {
+  color: white;
+  font-size: 35px;
+}
+h1 {
+  font-family: "Space Mono", monospace;
+  color: white;
+  font-size: 45px;
+}
+
+.navBar a {
+  font-family: "Space Mono", monospace;
+  transition: 0.3s ease-in-out;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35%;
+  gap: 10px;
+}
+img {
+  width: 500px;
+}
+
+.hero {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.curriculum {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: solid white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.navIcons i:hover {
+  color: greenyellow;
+}
+
+/* escritura */
+.wrapper {
+  height: 4vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 29ch;
+  animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media (max-width: 927px) {
+  .mainText {
+    margin: 20px auto;
+    padding-top: 50px;
+    margin: auto;
+
+    width: 80%;
+  }
+  h1 {
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .navText {
+    flex-direction: column;
+    text-align: center;
+  }
+  .navBar {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero {
+    flex-direction: column;
+    margin-top: 0;
+    gap: 30px;
+  }
+  img {
+    width: 100%;
+  }
+  .navText h1 {
+    font-size: 20px;
+  }
+  .typing-demo {
+    font-size: 15px;
+  }
+}
+.navBar a:hover {
+  color: greenyellow;
+}
