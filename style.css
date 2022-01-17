@@ -2,8 +2,12 @@
   padding: 0;
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(206, 37, 37);
   color: white;
 }
 p {
@@ -69,11 +73,11 @@ img {
 .curriculum {
   backdrop-filter: blur(6px);
 
-  padding: 15px;
-  background-color: rgba(187, 187, 187, 0.212);
+  padding: 18px;
+  background-color: rgba(187, 187, 187, 0);
   color: white;
   border: solid white;
-  border-radius: 5px;
+  border-radius: 30px;
   margin-top: 10px;
 }
 
@@ -96,10 +100,10 @@ img {
   font-size: 16px;
   font-family: "Space Mono", monospace;
 }
-.about {
+#about {
   padding-top: 200px;
 }
-.about h1 {
+#about h1 {
   text-align: center;
 }
 
