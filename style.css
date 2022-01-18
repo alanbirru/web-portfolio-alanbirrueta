@@ -7,12 +7,13 @@ html {
 }
 
 body {
-  background-color: rgb(206, 37, 37);
+  background-color: rgb(26, 26, 26);
   color: white;
 }
 p {
   font-family: "Space Mono", monospace;
   line-height: 25px;
+  font-size: 17px;
 }
 span {
   color: greenyellow;
@@ -101,11 +102,32 @@ img {
   font-family: "Space Mono", monospace;
 }
 #about {
-  padding-top: 200px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 #about h1 {
   text-align: center;
 }
+#about p {
+  margin: 0;
+  width: 50%;
+}
+#about div{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+#about img{
+  border-radius: 500px;
+  width: 200px
+  
+} 
+
 
 @keyframes typing {
   from {
@@ -159,8 +181,12 @@ img {
   .navText h1 {
     font-size: 20px;
   }
-  .about {
-    padding-top: 35px;
+  #about {
+    margin-top: 90px;
+  }
+  #about p {
+    margin: 0;
+    width: 80%;
   }
   .navBar a {
     color: black;
@@ -174,4 +200,8 @@ img {
   .navBar i:hover {
     color: rgb(255, 255, 255);
   }
+  #about img{
+    margin-top: 30px;
+    width: 170px
+  } 
 }
