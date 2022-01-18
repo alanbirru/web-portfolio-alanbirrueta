@@ -109,6 +109,7 @@ img {
 }
 #about h1 {
   text-align: center;
+  border-bottom: greenyellow solid 3px;
 }
 #about p {
   margin: 0;
