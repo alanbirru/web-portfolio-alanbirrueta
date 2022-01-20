@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    data-auto-replace-svg="nest"
+  ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Space+Mono&display=swap"
       rel="stylesheet"
@@ -18,11 +23,13 @@
     <title>Document</title>
   </head>
   <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-caret-up-square"></i></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bi bi-caret-up-square"></i>
+    </button>
     <nav class="navBar">
       <div class="navText">
         <a href="#about">About</a>
-        <a href="#">Skills</a>
+        <a href="#skills">Skills</a>
         <a href="#">Projects</a>
         <a href="#">Contact</a>
       </div>
@@ -49,16 +56,45 @@
         <img src="images/computer.png" alt="" />
       </div>
     </div>
-<hr>
+
     <div id="about">
-      <h1>About</h1>
-        <div>
-        <img src="images/mifoto.jpg" alt="">
+      <h1 class="titles">About</h1>
+      <div>
+        <img src="images/mifoto.jpg" alt="" />
         <p>
-    Me llamo Alan Birrueta y nací en Salem Oregon Estados Unidos actualmente viviendo en México, soy una persona amante de la tecnologia con ojo al detalle y al diseño, me considero autodidacta y de aprendizaje rapido con ganas de siempre aprender cosas nuevas.
+          Me llamo Alan Birrueta y nací en Salem Oregon Estados Unidos
+          actualmente viviendo en México, soy una persona amante de la
+          tecnologia con ojo al detalle y al diseño, me considero autodidacta y
+          de aprendizaje rapido con ganas de siempre aprender cosas nuevas.
         </p>
       </div>
     </div>
+    <div id="skills">
+      <h1 class="titles">Skills</h1>
+      <div class="mySkills">
 
+        <div class="html">
+          <i class="fab fa-html5 fa-10x"></i>
+          <h2>Html5</h2>
+        </div>
+
+        <div class="css">
+          <i class="fab fa-css3-alt fa-10x"></i>
+          <h2>Css</h2>
+        </div>
+
+        <div class="js">
+          <i class="fab fa-js fa-10x"></i>
+          <h2>Javascript</h2>
+        </div>
+
+        <div class="php">
+          <i class="fab fa-php fa-10x"></i>
+          <h2>Php</h2>
+        </div>
+      </div>
+    </div>
+  
+    </svg>
   </body>
 </html>

@@ -3,15 +3,11 @@
   margin: 0;
 }
 
-
-
 html {
   scroll-behavior: smooth;
-  
 }
-hr{
-margin-top: 200px;
-
+hr {
+  margin-top: 200px;
 }
 
 body {
@@ -49,11 +45,15 @@ a {
 .navIcons i {
   color: white;
   font-size: 35px;
+  transition: 0.3s;
 }
 h1 {
   font-family: "Space Mono", monospace;
   color: white;
   font-size: 45px;
+}
+h2 {
+  font-family: "Space Mono", monospace;
 }
 
 .navBar a {
@@ -115,28 +115,69 @@ img {
   align-items: center;
   flex-direction: column;
 }
-#about h1 {
+.titles {
   text-align: center;
+  margin-top: 50px;
+
   border-bottom: greenyellow solid 3px;
 }
 #about p {
   margin: 0;
   width: 50%;
 }
-#about div{
+#about div {
   justify-content: center;
   display: flex;
   gap: 30px;
   align-items: center;
   flex-wrap: wrap;
-  
 }
-#about img{
+#about img {
   border-radius: 500px;
-  width: 200px
-  
-} 
+  width: 200px;
+}
+#skills {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#skills p {
+  width: 50%;
+  margin: auto;
+}
 
+.mySkills {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.fa-html5 {
+  color: #e44d25;
+}
+.fa-css3-alt {
+  color: #264de4;
+}
+.fa-js {
+  color: #f7e018;
+}
+.fa-php {
+  color: #8993be;
+}
+.html,
+.js,
+.css,
+.php {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @keyframes typing {
   from {
@@ -209,16 +250,17 @@ img {
   .navBar i:hover {
     color: rgb(255, 255, 255);
   }
-  #about img{
+  #about img {
     margin-top: 30px;
-    width: 170px
-  } 
+    width: 170px;
+  }
+  .mySkills {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
-
-
+/* button up */
 #myBtn {
-  transition: .5s ease;
-  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -231,12 +273,10 @@ img {
   cursor: pointer;
   padding: 15px;
   border-radius: 200px;
-  transition: .5s;
-
-
-
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 
-#myBtn i{
+#myBtn i {
   color: black;
 }
