@@ -46,6 +46,7 @@ a {
   color: white;
   font-size: 35px;
   transition: 0.3s;
+  padding: 10px;
 }
 h1 {
   font-family: "Space Mono", monospace;
@@ -137,7 +138,7 @@ img {
   width: 200px;
 }
 #skills {
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,7 +154,7 @@ img {
   align-items: center;
   justify-content: center;
   display: flex;
-  gap: 100px;
+  gap: 70px;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -169,10 +170,18 @@ img {
 .fa-php {
   color: #8993be;
 }
+.fa-sass {
+  color: #d56ea3;
+}
+.fa-git-alt {
+  color: #f34f29;
+}
 .html,
 .js,
 .css,
-.php {
+.php,
+.sass,
+.git {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -256,7 +265,10 @@ img {
   }
   .mySkills {
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
+  }
+  #skills {
+    margin-top: 90px;
   }
 }
 /* button up */
