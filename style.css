@@ -84,7 +84,7 @@ img {
   backdrop-filter: blur(6px);
 
   padding: 18px;
-  background-color: rgba(187, 187, 187, 0);
+  background-color: rgb(24, 24, 24);
   color: white;
   border: solid white;
   border-radius: 30px;
