@@ -11,7 +11,7 @@ hr {
 }
 
 body {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(39, 39, 39);
   color: white;
 }
 p {
@@ -23,7 +23,7 @@ span {
   color: greenyellow;
 }
 .navBar {
-  background-color: rgb(26, 26, 26);
+  background-color: rgb(24, 24, 24);
   padding: 30px;
   display: flex;
   align-items: center;
@@ -187,6 +187,28 @@ img {
   align-items: center;
   justify-content: center;
 }
+#projects {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#projects h1 {
+  margin-bottom: 40px;
+}
+.myProjecs {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 90%;
+}
+.page img {
+  width: 500;
+}
 
 @keyframes typing {
   from {
@@ -234,7 +256,7 @@ img {
     margin-top: 0;
     gap: 30px;
   }
-  img {
+  .computerImage img {
     width: 100%;
   }
   .navText h1 {
@@ -268,6 +290,18 @@ img {
     gap: 30px;
   }
   #skills {
+    margin-top: 90px;
+  }
+  .myProjecs {
+    flex-wrap: wrap;
+  }
+  .page img {
+    width: 100%;
+  }
+  .myProjecs {
+    width: 80%;
+  }
+  #projects {
     margin-top: 90px;
   }
 }
